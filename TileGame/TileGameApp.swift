@@ -12,6 +12,10 @@ struct TileGameApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
+                .navigationTitle("Crown of Lanka")
         }
+        .windowStyle(.titleBar)
+        .windowResizability(.contentSize)
     }
 }

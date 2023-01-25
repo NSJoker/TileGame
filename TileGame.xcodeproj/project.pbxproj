@@ -11,6 +11,16 @@
 		CC96217E297176F5005B6B96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96217D297176F5005B6B96 /* ContentView.swift */; };
 		CC962180297176F6005B6B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC96217F297176F6005B6B96 /* Assets.xcassets */; };
 		CC962183297176F6005B6B96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC962182297176F6005B6B96 /* Preview Assets.xcassets */; };
+		CC96218B29717744005B6B96 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96218A29717744005B6B96 /* Home.swift */; };
+		CC96218F29717808005B6B96 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96218E29717808005B6B96 /* GameEngine.swift */; };
+		CC96219329717E2A005B6B96 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96219229717E2A005B6B96 /* TileView.swift */; };
+		CC96219529752799005B6B96 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96219429752799005B6B96 /* LandingView.swift */; };
+		CC96219829752A01005B6B96 /* Arcadia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC96219729752A00005B6B96 /* Arcadia.ttf */; };
+		CC96219A29752A0F005B6B96 /* Ailerons-Typeface.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC96219929752A0F005B6B96 /* Ailerons-Typeface.otf */; };
+		CC96219F29752BE9005B6B96 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96219E29752BE9005B6B96 /* Fonts.swift */; };
+		CC9621A629753051005B6B96 /* BelowFreezing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC9621A529753051005B6B96 /* BelowFreezing.mp3 */; };
+		CC9621A8297530F1005B6B96 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9621A7297530F1005B6B96 /* AudioPlayer.swift */; };
+		CC9621AB2976BA39005B6B96 /* LevelSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9621AA2976BA39005B6B96 /* LevelSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,17 @@
 		CC96217F297176F6005B6B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC962182297176F6005B6B96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC962184297176F6005B6B96 /* TileGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TileGame.entitlements; sourceTree = "<group>"; };
+		CC96218A29717744005B6B96 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CC96218E29717808005B6B96 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		CC96219229717E2A005B6B96 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		CC96219429752799005B6B96 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		CC96219729752A00005B6B96 /* Arcadia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arcadia.ttf; sourceTree = "<group>"; };
+		CC96219929752A0F005B6B96 /* Ailerons-Typeface.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ailerons-Typeface.otf"; sourceTree = "<group>"; };
+		CC96219B29752A22005B6B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC96219E29752BE9005B6B96 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CC9621A529753051005B6B96 /* BelowFreezing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BelowFreezing.mp3; sourceTree = "<group>"; };
+		CC9621A7297530F1005B6B96 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		CC9621AA2976BA39005B6B96 /* LevelSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +57,8 @@
 		CC96216F297176F5005B6B96 = {
 			isa = PBXGroup;
 			children = (
+				CC9621A429753044005B6B96 /* SoundTracks */,
+				CC962196297528B6005B6B96 /* Fonts */,
 				CC96217A297176F5005B6B96 /* TileGame */,
 				CC962179297176F5005B6B96 /* Products */,
 			);
@@ -52,8 +75,13 @@
 		CC96217A297176F5005B6B96 /* TileGame */ = {
 			isa = PBXGroup;
 			children = (
+				CC96219B29752A22005B6B96 /* Info.plist */,
+				CC96219E29752BE9005B6B96 /* Fonts.swift */,
 				CC96217B297176F5005B6B96 /* TileGameApp.swift */,
 				CC96217D297176F5005B6B96 /* ContentView.swift */,
+				CC9621A92976B96A005B6B96 /* Views */,
+				CC96218E29717808005B6B96 /* GameEngine.swift */,
+				CC9621A7297530F1005B6B96 /* AudioPlayer.swift */,
 				CC96217F297176F6005B6B96 /* Assets.xcassets */,
 				CC962184297176F6005B6B96 /* TileGame.entitlements */,
 				CC962181297176F6005B6B96 /* Preview Content */,
@@ -67,6 +95,34 @@
 				CC962182297176F6005B6B96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC962196297528B6005B6B96 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CC96219929752A0F005B6B96 /* Ailerons-Typeface.otf */,
+				CC96219729752A00005B6B96 /* Arcadia.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CC9621A429753044005B6B96 /* SoundTracks */ = {
+			isa = PBXGroup;
+			children = (
+				CC9621A529753051005B6B96 /* BelowFreezing.mp3 */,
+			);
+			path = SoundTracks;
+			sourceTree = "<group>";
+		};
+		CC9621A92976B96A005B6B96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC96218A29717744005B6B96 /* Home.swift */,
+				CC96219429752799005B6B96 /* LandingView.swift */,
+				CC96219229717E2A005B6B96 /* TileView.swift */,
+				CC9621AA2976BA39005B6B96 /* LevelSelectionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC96219829752A01005B6B96 /* Arcadia.ttf in Resources */,
 				CC962183297176F6005B6B96 /* Preview Assets.xcassets in Resources */,
+				CC9621A629753051005B6B96 /* BelowFreezing.mp3 in Resources */,
 				CC962180297176F6005B6B96 /* Assets.xcassets in Resources */,
+				CC96219A29752A0F005B6B96 /* Ailerons-Typeface.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC96219F29752BE9005B6B96 /* Fonts.swift in Sources */,
+				CC96219529752799005B6B96 /* LandingView.swift in Sources */,
 				CC96217E297176F5005B6B96 /* ContentView.swift in Sources */,
+				CC9621A8297530F1005B6B96 /* AudioPlayer.swift in Sources */,
+				CC96218B29717744005B6B96 /* Home.swift in Sources */,
 				CC96217C297176F5005B6B96 /* TileGameApp.swift in Sources */,
+				CC9621AB2976BA39005B6B96 /* LevelSelectionView.swift in Sources */,
+				CC96218F29717808005B6B96 /* GameEngine.swift in Sources */,
+				CC96219329717E2A005B6B96 /* TileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TileGame/TileGame.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -274,6 +341,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TileGame/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,6 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TileGame/TileGame.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -301,6 +370,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TileGame/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
